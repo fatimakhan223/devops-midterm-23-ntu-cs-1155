@@ -1,4 +1,4 @@
-cat << 'EOF' > test / grade.test.js
+
 const { test } = require('node:test');
 const assert = require('node:assert');
 const { grade } = require('../src/grade');
@@ -11,4 +11,3 @@ test('out-of-range marks are rejected', () => {
     assert.throws(() => grade(101), RangeError);
     assert.throws(() => grade(-1), RangeError);
 });
-EOF

@@ -12,4 +12,3 @@ function grade(marks) {
 }
 
 module.exports = { grade };
-EOF
